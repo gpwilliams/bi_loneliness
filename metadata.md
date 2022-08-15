@@ -5,7 +5,7 @@ This repository contains 4 files at the root directory:
 - LICENSE.txt: A text copy of the creative commons license used for this work.
 - metadata.md: This file.
 - README.md: A readme for navigating this project and the associated OSF repository.
-- requirements.txt: A file created by Python to allow for activating the environment used (in /env/) for computational reproducibility.
+- requirements.txt: A file created by Python to allow for loading the relevant packages (and versions) used in the analysis for computational reproducibility.
 
 The repository is mainly structured around 5 main folders, with the following files:
 
@@ -30,10 +30,6 @@ The repository is mainly structured around 5 main folders, with the following fi
 # /docs/:
 
 - analysis.html: contains the html output of the Jupyter notebook explaining the software used and each step of the analysis (including analytical choices) to produce the output for the paper. Note that additional analyses are included here which are not listed in the main body of the paper. Notably, posterior predictive checks and model diagnostics are included here.
-
-# /env/: 
-
-Contains several subfolders and files which are produced when creating the Python environment. This, along with requirements.txt in the root of the directory allows users to recreate the environment (including packages and versions) used at the time of the analysis, allowing for ease of computational reproducibility. 
 
 # /img/:
 
