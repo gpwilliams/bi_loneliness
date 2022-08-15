@@ -10,15 +10,25 @@ This work is licensed under [CC-By Attribution 4.0 International](https://creati
 
 # Reproducing the analyses in Python
 
-The cleanest way to reproduce these analyses is to create a virtual environment in Python and then install the required packages using the requirements.txt file.
+The cleanest way to reproduce these analyses is to create a virtual environment in Python and then install the required packages using the requirements.txt file. VS Code is recommended to complete the following. 
 
-## Using conda virtual environments
+1. Install VS Code from [https://code.visualstudio.com/download](https://code.visualstudio.com/download).
+2. Install Anaconda [https://docs.anaconda.com/anaconda/install/](https://docs.anaconda.com/anaconda/install/) or Miniconda from [https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html)
+3. Set up Python in VS Code by following the instructions here [https://code.visualstudio.com/docs/languages/python](https://code.visualstudio.com/docs/languages/python).
+
+Using VS Code ope nthe folder for this repository (File...Open Folder...). 
+
+Next, create a virtual environment from which to run the analyses. For details of working with virtual environments in VS Code, see [https://code.visualstudio.com/docs/python/environments](https://code.visualstudio.com/docs/python/environments) or instead follow the quick instructions below.
+
+## Quick start instructions for using virtual environments
+
+### Using conda virtual environments
 
 - To create a virtual environment: `conda create -n bi_loneliness python=3.9.5`.
 
 - Activate the virtual environment: `conda activate bi_loneliness`.
 
-## Using venv
+### Using venv
 
 Open the terminal and run the following:
 
@@ -26,13 +36,17 @@ Open the terminal and run the following:
 
 - Activate the virtual environment: `source venv/bin/activate`.
 
-## For both methods
+### Installing Packages in the conda or venv environment
 
 Install the necessary packages from the requirements.txt file: `pip install -r requirements.txt`.
 
-You should now be ready to run the code in the repository. Note, if this did not work try installing the same python version used in our analyses, Python 3.9.5.
+# Running analyses in VS Code
+
+Once you have activated the virtual environment and installed the relevant packages, in VS Code you can select your Python interpreter (from the virtual environment) using Cmd + Shift + P. Choose your recently created environment (if using Conda, this should be bi_loneliness Python version 3.9.5). Open the file /python/analysis.ipynb and click the Run All button at the top of the analysis file in VS Code. The whole analyses will rerun from the top of the file to the bottom.
 
 # Deactivating and removing the environment
+
+If you want to deactivate and/or remove the environment after reproducing these analyses, follow these instructions depending on whether you created the virtual environment in conda or venv.
 
 ## Using conda virtual environments
 
