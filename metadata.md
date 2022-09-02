@@ -19,17 +19,25 @@ The repository is mainly structured around 5 main folders, with the following fi
     - BRS: Participants' scores on the 6-item Brief Resilience Scale (Smith et al., 2008).
     - WEMWBS: Participants' scores on the 14-item Warwick Edinburgh Mental Well-being Scale (WEMWBS; Tennant et al., 2007).
     - Gender: Participants' gender; M = male, F = female.
-    - Age: Particiapnts' age in years.
+    - Age: Participants' age in years.
     - Region: Region to which participants live. If countries are not specified it is implied that this region is England (e.g. North East = North-East England).
     - Martial Status, Living Arrangements, Primary Carer, and Employment are self-explanatory free-text entry responses. Note that for employment FT = full time and PT = part time.
     - BI Severity: Rating of brain injury severity: ordinal from mild, moderate, severe, and very severe.
     - Single/Multiple Impairment: Whether injury is associated with single impairment or multiple impairment. Specific impairments are listed in the remaining columns ranging from Vision to Pain. 
 
     All scales used short versions to minimise fatigue. Please see the corresponding scales for information on scoring.
+    
+- compiled-transcripts.pdf: anonymised transcripts for each interview. Coding is explained at the start of the document.
 
 # /docs/:
 
 - analysis.html: contains the html output of the Jupyter notebook explaining the software used and each step of the analysis (including analytical choices) to produce the output for the paper. Note that additional analyses are included here which are not listed in the main body of the paper. Notably, posterior predictive checks and model diagnostics are included here.
+
+- consent.pdf: the consent form given to participants.
+- how-to-join-the-interview.pdf: instructions given to participants prior to taking part in the study explaining how to join the interview over Microsoft Teams.
+- information.pdf: participant information sheet.
+- interview-structure.pdf: an outline of how interviews were conducted with participants.
+- standards-for-reporting-qualitative-research.pdf: the guide used to report the qualitative analyses, taken from O'Brien et al. (2014).
 
 # /img/:
 
@@ -42,6 +50,7 @@ Contains several .png images of plots used during the analysis. These are explai
 - plot_pp_check.png: posterior predictive check for the full model (with DJG as a continuous predictor).
 - plot_severity.png: Counts of the severity of impairment experienced by participants.
 - plot_trace.png: Trace plot with marginal posterior estimates for each parameter from the full model (with DJG as a continuous predictor).
+- themes.jpg: an outline of the themes highlighted in the qualitative analysis.
 
 # /python/:
 

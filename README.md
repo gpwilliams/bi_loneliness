@@ -1,6 +1,6 @@
-# Dunne, S., Williams, G. P., Bradbury, C., Keyes, T., Lane, A. R., Yang, K., & Ellison, A. (August, 2022). A life in lockdown: Brain injury survivors' experiences of loneliness in lockdown.
+# Dunne, S., Williams, G. P., Bradbury, C., Keyes, T., Lane, A. R., Yang, K., & Ellison, A. (September, 2022). Uncovering the social determinants of brain injury rehabilitation.
 
-This repository contains the data, code, and analysis product necessary to reproduce the analyses described in Dunne et al. (August, 2022). [*A life in lockdown: Brain injury survivors' experiences of loneliness in lockdown.*](https://osf.io/rbtms/).
+This repository contains the data, code, and analysis product necessary to reproduce the analyses described in Dunne et al. (September, 2022). [*Uncovering the social determinants of brain injury rehabilitation.*](https://osf.io/rbtms/).
 
 This repository, along with materials and interview transcripts, is hosted on the [OSF](https://osf.io/rbtms/).
 
@@ -8,7 +8,20 @@ Please see the metadata file for a description of the files and folders in this 
 
 This work is licensed under [CC-By Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode).
 
-# Reproducing the analyses in Python
+# Reproducing the qualitative analyses
+
+Full participant transcripts are provided in pdf format located in /data/compiled_transcripts.pdf.
+
+No software was used for this analysis. Authors preferred pen, paper and sticky notes to visualise data. After data was transcribed, authors 1 and 1 familiarised themselves with the data by watching the recordings, conducting multiple readings of the transcripts, and made notes of preliminary ideas. Author 1 independently conducted general coding, highlighting, and labelling any relevant passages of text with descriptive code throughout all transcripts. To explore patterns of meaning, similarly coded extracts, along with a description of each code, were placed together in a table. After all transcripts had been coded, authors 1 and 2 met to discuss the interpretations of the data, agreeing codes, and discarding any not related to the research enquiry. All codes were sorted into categories and subsequently refined into themes. Data and coding within themes were analysed and inter-relationships between themes visualised. The themes were named and defined, and a written summary of the analysis grounded in participant data was constructed. 
+
+To ensure rigour in our qualitative analysis we adhered to the 15-point check-list criteria provided by Braun and Clarke (2006, 2013) which provides guidance on the processes of transcription, coding, analysis, and the creation of a written report. Examples of quality control within this study include ensuring transcribed data have the appropriate level of detail, checking recordings for accuracy, checking all data have been considered equally, confirming coded items have been collated and themes checked against the original data set, reviewing whether all data have been interpreted rather than summarised and that all analysis matches the data set and stating all assumptions and approaches to thematic analysis. Additionally, we employed researcher triangulation, with authors 1 and 2 having conducted the interviews, not only discussing, and evaluating their impressions of the data but also discussing their experiences of conducting the interview. Finally, throughout the data processing and analysis phases, author 1 kept a reflexive journal to log their thoughts, motivations, values, and assumptions in the research process.
+
+References
+
+Braun, V., & Clarke, V. (2006). Using thematic analysis in psychology. *Qualitative Research in Psychology*, 3(2), 77–101. [https://doi.org/10.1191/1478088706qp063oa](https://doi.org/10.1191/1478088706qp063oa)
+Braun, V., & Clarke, V. (2013). *Successful qualitative research: A practical guide for beginners*. Sage. [https://uwe-repository.worktribe.com/output/934201](https://uwe-repository.worktribe.com/output/934201)
+
+# Reproducing the quantitative analyses in Python
 
 The cleanest way to reproduce these analyses is to create a virtual environment in Python and then install the required packages using the requirements.txt file. VS Code is recommended to complete the following. 
 
