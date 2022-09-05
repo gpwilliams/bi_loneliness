@@ -11,7 +11,7 @@ backports.functools-lru-cache @ file:///home/conda/feedstock_root/build_artifact
 beautifulsoup4 @ file:///home/conda/feedstock_root/build_artifacts/beautifulsoup4_1649463573192/work
 bleach @ file:///home/conda/feedstock_root/build_artifacts/bleach_1656355450470/work
 cachetools @ file:///home/conda/feedstock_root/build_artifacts/cachetools_1660055382950/work
-certifi==2022.6.15
+certifi @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_884c889c-96af-444f-bd6d-daddb5e9a462ykj3l5n_/croots/recipe/certifi_1655968814730/work/certifi
 cffi @ file:///Users/runner/miniforge3/conda-bld/cffi_1656782892388/work
 cftime @ file:///Users/runner/miniforge3/conda-bld/cftime_1656803748772/work
 cloudpickle @ file:///home/conda/feedstock_root/build_artifacts/cloudpickle_1653061851209/work
@@ -53,7 +53,7 @@ mistune @ file:///Users/runner/miniforge3/conda-bld/mistune_1635844817800/work
 multipledispatch==0.6.0
 munkres==1.1.4
 nbclient @ file:///home/conda/feedstock_root/build_artifacts/nbclient_1646999386773/work
-nbconvert @ file:///Users/runner/miniforge3/conda-bld/nbconvert_1648465200908/work
+nbconvert @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_croot-bbvj0nuy/nbconvert_1649751921251/work
 nbformat @ file:///home/conda/feedstock_root/build_artifacts/nbformat_1651607001005/work
 nest-asyncio @ file:///home/conda/feedstock_root/build_artifacts/nest-asyncio_1648959695634/work
 netCDF4 @ file:///Users/runner/miniforge3/conda-bld/netcdf4_1661987327113/work
